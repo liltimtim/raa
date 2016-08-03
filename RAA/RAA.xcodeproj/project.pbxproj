@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1280BE15422BEB148E9C6248 /* Pods_RAATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901696B043EDE3C05B0FE744 /* Pods_RAATests.framework */; };
+		1DA1F6AC536DCD2AC306DA6C /* Pods_RAA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B94F62F1D940C5ABA968D2C /* Pods_RAA.framework */; };
 		6751844D1D52960E000DC212 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6751844C1D52960E000DC212 /* AppDelegate.swift */; };
 		6751844F1D52960E000DC212 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6751844E1D52960E000DC212 /* ViewController.swift */; };
 		675184521D52960E000DC212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675184501D52960E000DC212 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		675184571D52960E000DC212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 675184551D52960E000DC212 /* LaunchScreen.storyboard */; };
 		675184621D52960E000DC212 /* RAATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675184611D52960E000DC212 /* RAATests.swift */; };
 		6751846D1D52960E000DC212 /* RAAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6751846C1D52960E000DC212 /* RAAUITests.swift */; };
+		73AB82C5F7BB3415B286B74D /* Pods_RAAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32623AA3E7C42B61677CD63 /* Pods_RAAUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A954EC3819C1FD83068A91 /* Pods-RAA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAA.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAA/Pods-RAA.release.xcconfig"; sourceTree = "<group>"; };
+		3C0533C937698B07FE269B01 /* Pods-RAA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAA/Pods-RAA.debug.xcconfig"; sourceTree = "<group>"; };
 		675184491D52960E000DC212 /* RAA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6751844C1D52960E000DC212 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6751844E1D52960E000DC212 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,15 @@
 		675184681D52960E000DC212 /* RAAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6751846C1D52960E000DC212 /* RAAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAAUITests.swift; sourceTree = "<group>"; };
 		6751846E1D52960E000DC212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		675184831D5297D2000DC212 /* RAA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAA-Bridging-Header.h"; sourceTree = "<group>"; };
+		675184841D5297D2000DC212 /* RAATests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RAATests-Bridging-Header.h"; sourceTree = "<group>"; };
+		724F6C90F313E8A677262010 /* Pods-RAAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAAUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAAUITests/Pods-RAAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		901696B043EDE3C05B0FE744 /* Pods_RAATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B94F62F1D940C5ABA968D2C /* Pods_RAA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF889B77ADADC7C1898C6CAF /* Pods-RAATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAATests/Pods-RAATests.debug.xcconfig"; sourceTree = "<group>"; };
+		B27B9C369211D82690823243 /* Pods-RAAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAAUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAAUITests/Pods-RAAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5A548720EEB1FD36B72F9A1 /* Pods-RAATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAATests/Pods-RAATests.release.xcconfig"; sourceTree = "<group>"; };
+		F32623AA3E7C42B61677CD63 /* Pods_RAAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DA1F6AC536DCD2AC306DA6C /* Pods_RAA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1280BE15422BEB148E9C6248 /* Pods_RAATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73AB82C5F7BB3415B286B74D /* Pods_RAAUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		108B4A22389EC5FC17963498 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B94F62F1D940C5ABA968D2C /* Pods_RAA.framework */,
+				901696B043EDE3C05B0FE744 /* Pods_RAATests.framework */,
+				F32623AA3E7C42B61677CD63 /* Pods_RAAUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34CEC2F92CCE6274FF8A6A7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C0533C937698B07FE269B01 /* Pods-RAA.debug.xcconfig */,
+				02A954EC3819C1FD83068A91 /* Pods-RAA.release.xcconfig */,
+				AF889B77ADADC7C1898C6CAF /* Pods-RAATests.debug.xcconfig */,
+				E5A548720EEB1FD36B72F9A1 /* Pods-RAATests.release.xcconfig */,
+				724F6C90F313E8A677262010 /* Pods-RAAUITests.debug.xcconfig */,
+				B27B9C369211D82690823243 /* Pods-RAAUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		675184401D52960E000DC212 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				675184601D52960E000DC212 /* RAATests */,
 				6751846B1D52960E000DC212 /* RAAUITests */,
 				6751844A1D52960E000DC212 /* Products */,
+				34CEC2F92CCE6274FF8A6A7E /* Pods */,
+				108B4A22389EC5FC17963498 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +145,8 @@
 				675184531D52960E000DC212 /* Assets.xcassets */,
 				675184551D52960E000DC212 /* LaunchScreen.storyboard */,
 				675184581D52960E000DC212 /* Info.plist */,
+				675184831D5297D2000DC212 /* RAA-Bridging-Header.h */,
+				675184841D5297D2000DC212 /* RAATests-Bridging-Header.h */,
 			);
 			path = RAA;
 			sourceTree = "<group>";
@@ -132,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 675184711D52960E000DC212 /* Build configuration list for PBXNativeTarget "RAA" */;
 			buildPhases = (
+				2571D85DD9FB80BC500CD2D3 /* [CP] Check Pods Manifest.lock */,
 				675184451D52960E000DC212 /* Sources */,
 				675184461D52960E000DC212 /* Frameworks */,
 				675184471D52960E000DC212 /* Resources */,
+				C1F1BF262FC1522F983F23C4 /* [CP] Embed Pods Frameworks */,
+				FCE6DDDD9DB3A827C97C84CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 675184741D52960E000DC212 /* Build configuration list for PBXNativeTarget "RAATests" */;
 			buildPhases = (
+				3FA8AEE47251693C4B28CCDC /* [CP] Check Pods Manifest.lock */,
 				675184591D52960E000DC212 /* Sources */,
 				6751845A1D52960E000DC212 /* Frameworks */,
 				6751845B1D52960E000DC212 /* Resources */,
+				91811CDC7DBAC39032524B0E /* [CP] Embed Pods Frameworks */,
+				79E5B5B5E5EB305B1B16A397 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 675184771D52960E000DC212 /* Build configuration list for PBXNativeTarget "RAAUITests" */;
 			buildPhases = (
+				7D7B21C6030F212B3502E408 /* [CP] Check Pods Manifest.lock */,
 				675184641D52960E000DC212 /* Sources */,
 				675184651D52960E000DC212 /* Frameworks */,
 				675184661D52960E000DC212 /* Resources */,
+				8D5E3BE457DA12E298A0067C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +245,7 @@
 				TargetAttributes = {
 					675184481D52960E000DC212 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2U5VW4S83Y;
 					};
 					6751845C1D52960E000DC212 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -250,6 +303,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2571D85DD9FB80BC500CD2D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3FA8AEE47251693C4B28CCDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79E5B5B5E5EB305B1B16A397 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAATests/Pods-RAATests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D7B21C6030F212B3502E408 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D5E3BE457DA12E298A0067C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAAUITests/Pods-RAAUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91811CDC7DBAC39032524B0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAATests/Pods-RAATests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1F1BF262FC1522F983F23C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAA/Pods-RAA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCE6DDDD9DB3A827C97C84CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAA/Pods-RAA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		675184451D52960E000DC212 /* Sources */ = {
@@ -399,52 +575,87 @@
 		};
 		675184721D52960E000DC212 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0533C937698B07FE269B01 /* Pods-RAA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RAA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tb.RAA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RAA/RAA-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		675184731D52960E000DC212 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A954EC3819C1FD83068A91 /* Pods-RAA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RAA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tb.RAA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RAA/RAA-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		675184751D52960E000DC212 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF889B77ADADC7C1898C6CAF /* Pods-RAATests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RAATests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tb.RAATests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RAA/RAATests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAA.app/RAA";
 			};
 			name = Debug;
 		};
 		675184761D52960E000DC212 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A548720EEB1FD36B72F9A1 /* Pods-RAATests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = RAATests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tb.RAATests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RAA/RAATests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAA.app/RAA";
 			};
 			name = Release;
 		};
 		675184781D52960E000DC212 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724F6C90F313E8A677262010 /* Pods-RAAUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RAAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +667,7 @@
 		};
 		675184791D52960E000DC212 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27B9C369211D82690823243 /* Pods-RAAUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RAAUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +696,7 @@
 				675184731D52960E000DC212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		675184741D52960E000DC212 /* Build configuration list for PBXNativeTarget "RAATests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +705,7 @@
 				675184761D52960E000DC212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		675184771D52960E000DC212 /* Build configuration list for PBXNativeTarget "RAAUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +714,7 @@
 				675184791D52960E000DC212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

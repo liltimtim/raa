@@ -1,0 +1,47 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts-Swift (1.2.0)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FBSDKCoreKit (4.14.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.14.0):
+    - FBSDKCoreKit
+  - Parse (1.14.2):
+    - Bolts/Tasks (~> 1.8)
+  - ParseLiveQuery (1.0.1):
+    - Bolts-Swift (~> 1.2)
+    - Parse (~> 1.14)
+    - SocketRocket (~> 0.5)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - Parse
+  - ParseLiveQuery (from `https://github.com/ParsePlatform/ParseLiveQuery-iOS-OSX.git`)
+
+EXTERNAL SOURCES:
+  ParseLiveQuery:
+    :git: https://github.com/ParsePlatform/ParseLiveQuery-iOS-OSX.git
+
+CHECKOUT OPTIONS:
+  ParseLiveQuery:
+    :commit: 19845ebf17bb7aad96c01294bf2593d9de265291
+    :git: https://github.com/ParsePlatform/ParseLiveQuery-iOS-OSX.git
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Bolts-Swift: ac4e7d26719ed0f73aa85b9310da1648105fbde3
+  FBSDKCoreKit: 6e020b5db0b5bd1e01f5fb0902131befd129a502
+  FBSDKLoginKit: da563567a108050ef83739c8c8c001ee9e25fa13
+  Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
+  ParseLiveQuery: 7fb653a8b0e0a3e843454a6061c41c5fab4fb336
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: 0e6b9bd6346a25357a3fd6e3162c19470b8ccb14
+
+COCOAPODS: 1.0.1
