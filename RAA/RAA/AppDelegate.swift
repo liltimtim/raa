@@ -10,6 +10,7 @@ import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
 import Parse
+import ParseFacebookUtilsV4
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -25,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             $0.server = "https://stormy-headland-69780.herokuapp.com/parse"
         }
         Parse.initializeWithConfiguration(configs)
-        
+        PFFacebookUtils.initializeFacebookWithApplicationLaunchOptions(launchOptions)
         return true
     }
     
