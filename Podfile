@@ -8,6 +8,7 @@ def import_pods
    pod 'FBSDKLoginKit'
    pod 'FBSDKCoreKit'
    pod 'ParseFacebookUtilsV4'
+   pod 'SwiftyJSON'
 end
 
 target 'RAA' do

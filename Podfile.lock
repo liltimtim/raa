@@ -23,6 +23,7 @@ PODS:
     - Parse (~> 1.14)
     - SocketRocket (~> 0.5)
   - SocketRocket (0.5.1)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - FBSDKCoreKit
@@ -30,6 +31,7 @@ DEPENDENCIES:
   - Parse
   - ParseFacebookUtilsV4
   - ParseLiveQuery (from `https://github.com/ParsePlatform/ParseLiveQuery-iOS-OSX.git`)
+  - SwiftyJSON
 
 EXTERNAL SOURCES:
   ParseLiveQuery:
@@ -49,7 +51,8 @@ SPEC CHECKSUMS:
   ParseFacebookUtilsV4: 2f30c2b7021c8005d3042781da7ef87d06589421
   ParseLiveQuery: 7fb653a8b0e0a3e843454a6061c41c5fab4fb336
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: 6f6b15c48e83afd01af54d6c99a09968d3f6169a
+PODFILE CHECKSUM: c7175853cacc9f6a31de7d9dfa870d934846fa0d
 
 COCOAPODS: 1.0.1

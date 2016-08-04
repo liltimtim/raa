@@ -21,21 +21,22 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
     @IBAction func loginFacebookPressed(sender: AnyObject) {
         PFInterface.authenticate { (error) in
             print(error)
-            self.performSegueWithIdentifier("showGameBoard", sender: nil)
+            if error == nil {
+                self.performSegueWithIdentifier("showGameBoard", sender: nil)
+            } else {
+                
+            }
+            
         }
     }
-
+    
+    private func displayError(message:String) {
+        let alertVC = UIAlertController(title: "Oops", message: message, preferredStyle: .Alert)
+        let okayAction = UIAlertAction(title: "Okay", style: .Default, handler: nil)
+        alertVC.addAction(okayAction)
+        self.presentViewController(alertVC, animated: true, completion: nil)
+    }
 }
